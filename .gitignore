@@ -47,3 +47,5 @@ db-push.txt
 #ignore wp-cli file
 
 wp-cli.yml
+.DS_Store
+

@@ -1,23 +1,35 @@
 /*Colors*/
-$primary-font-color : black;
-$second-font-color : white;
-$tertiary-font-color : blue;
+$brand-primary : #2186F7;
+$brand-secondary : #FF2BEA;
 
-$primary-color : white;
-$secondary-color : black;
-$tertiary-color : red;
+$success : #B8E986;
+$warning : #F8E81C;
+$error : #D0011B;
+
+$font-color-primary : $brand-three;
+$font-color-secondary : $brand-eight;
+$font-color-tertiary : #fff;
 
 $font-size : 14;
 
-$font-primary: arial, sans-serif;
-$font-secondary: arial, sans-serif;
-$font-tertiary: arial, sans-serif;
+$font-bold : 500;
+$font-med : 400;
+$font-reg : 300;
+
+
+$font-primary: "futura-pt", arial, sans-serif;
+$font-secondary: "open-sans", arial, sans-serif;
 
 /*Media Query functions */
 $xs-screen: 480px;
 $sm-screen: 767px;
 $md-screen: 991px;
 $lg-screen: 1024px;
+
+//uniform padding
+
+$tab-pad: 40;
+$mob-pad : 20;
 
 @mixin xs {
   @media (min-width: #{$xs-screen}) {
@@ -39,3 +51,4 @@ $lg-screen: 1024px;
     @content;
   }
 }
+
